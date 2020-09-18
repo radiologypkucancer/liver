@@ -1,0 +1,585 @@
+{
+    "BJCH_1": {
+        "images_np_file": "D:\\data\\ailab\\Liver_MR\\models\\BJCH_liver_MR_TRG_rate_classification_3dmodel_0907_g1\\validation_images_00001.npz",
+        "clinical_information_np_file": "D:\\data\\ailab\\Liver_MR\\models\\BJCH_liver_MR_TRG_rate_classification_3dmodel_0907_g1\\validation_clinical_information_00001.npz",
+        "targets_np_file": "D:\\data\\ailab\\Liver_MR\\models\\BJCH_liver_MR_TRG_rate_classification_3dmodel_0907_g1\\validation_targets_00001.npz",
+        "niix_data_files": {
+            "cross_group1_t2post_118625_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\118625\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\118625\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\118625\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\118625\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_154121_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\154121\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\154121\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\154121\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\154121\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_161509_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\161509\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\161509\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\161509\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\161509\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_173141_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\173141\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\173141\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\173141\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\173141\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_176407_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\176407\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\176407\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\176407\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\176407\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_182483_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\182483\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\182483\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\182483\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\182483\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_186376_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\186376\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\186376\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\186376\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\186376\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_186376_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\186376\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\186376\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\186376\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\186376\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_186376_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\186376\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\186376\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\186376\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\186376\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_200551_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\200551\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\200551\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\200551\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\200551\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_208016_lesion_patch_4_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\208016\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\208016\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\208016\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\208016\\lesion_patch_4\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_209295_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\209295\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\209295\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\209295\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\209295\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_215547_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\215547\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\215547\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\215547\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\215547\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_215630_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\215630\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\215630\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\215630\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\215630\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_302318_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\302318\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\302318\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\302318\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\302318\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_302318_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\302318\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\302318\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\302318\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\302318\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_331275_lesion_patch_5_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\331275\\lesion_patch_5\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\331275\\lesion_patch_5\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\331275\\lesion_patch_5\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\331275\\lesion_patch_5\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_358916_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\358916\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\358916\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\358916\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\358916\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_400047_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\400047\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\400047\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\400047\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\400047\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_402705_lesion_patch_4_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\402705\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\402705\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\402705\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\402705\\lesion_patch_4\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_414668_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\414668\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\414668\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\414668\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\414668\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_417437_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\417437\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\417437\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\417437\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\417437\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_420184_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\420184\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\420184\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\420184\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\420184\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_440121_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\440121\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\440121\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\440121\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\440121\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_463392_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\463392\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\463392\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\463392\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\463392\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_487766_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\487766\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\487766\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\487766\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\487766\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_487766_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\487766\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\487766\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\487766\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\487766\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_487766_lesion_patch_4_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\487766\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\487766\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\487766\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\487766\\lesion_patch_4\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_497185_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\497185\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\497185\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\497185\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\497185\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_500238_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\500238\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\500238\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\500238\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\500238\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_500284_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\500284\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\500284\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\500284\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\500284\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_502297_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\502297\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\502297\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\502297\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\502297\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_502297_lesion_patch_4_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\502297\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\502297\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\502297\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\502297\\lesion_patch_4\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_535949_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\535949\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\535949\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\535949\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\535949\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_548840_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\548840\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\548840\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\548840\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\548840\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_552258_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\552258\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\552258\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\552258\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\552258\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_556263_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\556263\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\556263\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\556263\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\556263\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_576546_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\576546\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\576546\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\576546\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\576546\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_595493_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\595493\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\595493\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\595493\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\595493\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_613709_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\613709\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\613709\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\613709\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\613709\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_624071_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\624071\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\624071\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\624071\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\624071\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_636460_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\636460\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\636460\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\636460\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\636460\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_644012_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\644012\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\644012\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\644012\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\644012\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_652582_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\652582\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\652582\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\652582\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\652582\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_663810_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\663810\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\663810\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\663810\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\663810\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_689701_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\689701\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\689701\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\689701\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\689701\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_689701_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\689701\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\689701\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\689701\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\689701\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_713391_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\713391\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\713391\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\713391\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\713391\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_715859_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\715859\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\715859\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\715859\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\715859\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_715859_lesion_patch_4_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\715859\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\715859\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\715859\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\715859\\lesion_patch_4\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_727317_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\727317\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\727317\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\727317\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\727317\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_728312_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\728312\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\728312\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\728312\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\728312\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_777763_lesion_patch_3_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\777763\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\777763\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\777763\\lesion_patch_3\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\777763\\lesion_patch_3\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_777774_lesion_patch_4_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\777774\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\777774\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\777774\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\777774\\lesion_patch_4\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_780290_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\780290\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\780290\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\780290\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\780290\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_780290_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\780290\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\780290\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\780290\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\780290\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_788512_lesion_patch_5_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\788512\\lesion_patch_5\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\788512\\lesion_patch_5\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\788512\\lesion_patch_5\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\788512\\lesion_patch_5\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_805620_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\805620\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\805620\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\805620\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\805620\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_845717_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\845717\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\845717\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\845717\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\845717\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_849276_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\849276\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\849276\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\849276\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\849276\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_869514_lesion_patch_1_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\869514\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\869514\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\869514\\lesion_patch_1\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\869514\\lesion_patch_1\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_870885_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\870885\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\870885\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\870885\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\870885\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "low risk"
+            },
+            "cross_group1_t2post_877364_lesion_patch_2_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\877364\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\877364\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\877364\\lesion_patch_2\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\877364\\lesion_patch_2\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            },
+            "cross_group1_t2post_877364_lesion_patch_4_Aug_0": {
+                "images_data_niix": [
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2pre\\877364\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\t2post\\877364\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpre\\877364\\lesion_patch_4\\0\\lesion_patch.nii.gz",
+                    "D:\\data\\zhuhaibin\\cross_grouped_data_for_bg_removed_full_lesion_balanced_0121\\cross_group1\\adcpost\\877364\\lesion_patch_4\\0\\lesion_patch.nii.gz"
+                ],
+                "class_description": "high risk"
+            }
+        }
+    }
+}
